@@ -30,43 +30,6 @@
   - **`Bash>=3`**
 
 
-## Wait! it's not written in a fancy language
-
-And it doesn't have to be. Why?
-
-- Your focus should be on your **dot files & scripts** rather than on a dotfiles manager or how to use it.(_Wait I forgot what was the command to push files? Is it `dt push` or `dt --push`_)
-- Creating a overly-complex solution for something simple should not be the goal.
-
-
-## 💠 Installation
-
-### via `curl` ➰
-
-```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Bhupesh-v/dotman/master/tools/install.sh)"
-```
-
-### via `wget` 📥
-
-```shell
-sh -c "$(wget -O- https://raw.githubusercontent.com/Bhupesh-v/dotman/master/tools/install.sh)"
-```
-
-### via `httpie` 🥧
-
-```shell
-sh -c "$(http --download https://raw.githubusercontent.com/Bhupesh-v/dotman/master/tools/install.sh)"
-```
-
-> **dotman** is installed by default in `/home/username/dotman`, your `$HOME` directory.
-
-
-Now run **`dotman`** for 1st time set-up.
-
-1. Enter repository URL (without `.git`).
-2. Specify folder you want to clone the dotfile repo to (relative to `/home/username/`).
-3. Open up new terminal 🚀.
-
 ### Manually (you ok ?)
 
 1. Just grab **dotman.sh** from [Releases 🔼](https://github.com/Bhupesh-V/dotman/releases) and store it anywhere on your system.
@@ -107,5 +70,3 @@ You can change these manually if any one of the info changes.
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
