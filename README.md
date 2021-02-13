@@ -30,18 +30,17 @@
   - **`Bash>=3`**
 
 
-### Manually (you ok ?)
+### Manually Install
 
-1. Just grab **dotman.sh** from [Releases 🔼](https://github.com/Bhupesh-V/dotman/releases) and store it anywhere on your system.
-2. Change file permissions to be 🏃 executable.
+1. Change file permissions to be 🏃 executable.
   ```bash
   chmod +x dotman.sh
   ```
-3. Set alias for dotman _(optional)_. Alternatively modify your `.bash_aliases` file. 
+2. Set alias for dotman _(optional)_. Alternatively modify your `.bash_aliases` file. 
   ```bash
   alias $(pwd)/dotman.sh=dotman
   ```
-4. Run **dotman**.
+3. Run **dotman**.
   ```bash
   dotman.sh
   ```
